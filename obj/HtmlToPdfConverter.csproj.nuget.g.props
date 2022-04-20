@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\ehxan\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files (x86)\Microsoft\Xamarin\NuGet\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.11.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\ehxan\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft\Xamarin\NuGet\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)cete.dynamicpdf.converter.net\3.12.0\contentFiles\any\any\DPDFConverterService\DynamicPDF.Converter.Service.exe" Condition="Exists('$(NuGetPackageRoot)cete.dynamicpdf.converter.net\3.12.0\contentFiles\any\any\DPDFConverterService\DynamicPDF.Converter.Service.exe')">
+      <NuGetPackageId>ceTe.DynamicPDF.Converter.NET</NuGetPackageId>
+      <NuGetPackageVersion>3.12.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>DPDFConverterService\DynamicPDF.Converter.Service.exe</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)cete.dynamicpdf.converter.net\3.12.0\contentFiles\any\any\DPDFConverterService\DynamicPDF.Converter.Service.exe.config" Condition="Exists('$(NuGetPackageRoot)cete.dynamicpdf.converter.net\3.12.0\contentFiles\any\any\DPDFConverterService\DynamicPDF.Converter.Service.exe.config')">
+      <NuGetPackageId>ceTe.DynamicPDF.Converter.NET</NuGetPackageId>
+      <NuGetPackageVersion>3.12.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>DPDFConverterService\DynamicPDF.Converter.Service.exe.config</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)cete.dynamicpdf.converter.net\3.12.0\contentFiles\any\any\DPDFConverterService\ReadMe.txt" Condition="Exists('$(NuGetPackageRoot)cete.dynamicpdf.converter.net\3.12.0\contentFiles\any\any\DPDFConverterService\ReadMe.txt')">
+      <NuGetPackageId>ceTe.DynamicPDF.Converter.NET</NuGetPackageId>
+      <NuGetPackageVersion>3.12.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>DPDFConverterService\ReadMe.txt</Link>
+    </Content>
+  </ItemGroup>
+</Project>
